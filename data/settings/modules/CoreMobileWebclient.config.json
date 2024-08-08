@@ -1,0 +1,42 @@
+{
+    "Disabled": [
+        false,
+        "bool",
+        null,
+        "Setting to true disables the module"
+    ],
+    "Theme": [
+        "Default",
+        "string",
+        null,
+        "Default theme used by mobile version"
+    ],
+    "ThemeList": [
+        [
+            "Default"
+        ],
+        "array",
+        null,
+        "List of themes available in mobile version"
+    ],
+    "IncludeInMobile": [
+        true,
+        "bool",
+        null,
+        "If true, the module is used in mobile version of the interface"
+    ],
+    "IncludeInDesktop": [
+        false,
+        "bool",
+        null,
+        "If true, the module is used in desktop version of the interface"
+    ],
+    "RequireInMobile": [
+        [
+            "CoreWebclient"
+        ],
+        "array",
+        null,
+        "List of other modules required by this module"
+    ]
+}

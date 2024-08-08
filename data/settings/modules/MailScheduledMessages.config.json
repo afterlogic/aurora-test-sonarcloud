@@ -1,0 +1,27 @@
+{
+    "Disabled": [
+        true,
+        "bool",
+        null,
+        "If true, the module is used in mobile version of the interface"
+    ],
+    "PredefinedSchedule": [
+        [
+            {
+                "DayOfWeek": "today",
+                "Hour": "18"
+            },
+            {
+                "DayOfWeek": "tomorrow",
+                "Hour": "8"
+            },
+            {
+                "DayOfWeek": "monday",
+                "Hour": "8"
+            }
+        ],
+        "array",
+        null,
+        "Defines a list of presets used when scheduling a message for sending out"
+    ]
+}

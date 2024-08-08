@@ -1,0 +1,44 @@
+{
+    "Disabled": [
+        true,
+        "bool",
+        null,
+        "Setting to true disables the module"
+    ],
+    "ServerModuleName": [
+        "MailSignup",
+        "string",
+        null,
+        "Defines name of the module responsible for signup"
+    ],
+    "HashModuleName": [
+        "signup",
+        "string",
+        null,
+        "Defines hash of the module responsible for signup"
+    ],
+    "CustomLogoUrl": [
+        "",
+        "string",
+        null,
+        "Defines URL of logo image used on signup page"
+    ],
+    "InfoText": [
+        "",
+        "string",
+        null,
+        "Defines additional text message shown on signup page"
+    ],
+    "BottomInfoHtmlText": [
+        "",
+        "string",
+        null,
+        "Defines bottom text message shown on signup page"
+    ],
+    "DomainList": [
+        [],
+        "array",
+        null,
+        "Defines list of domains signup feature is available for"
+    ]
+}

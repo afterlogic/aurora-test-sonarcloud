@@ -1,0 +1,14 @@
+{
+    "Disabled": [
+        false,
+        "bool",
+        null,
+        "Setting to true disables the module"
+    ],
+    "AllowAppointments": [
+        true,
+        "bool",
+        null,
+        "If true, allows for adding event attendees and enables processing event invitations in mail"
+    ]
+}

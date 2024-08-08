@@ -1,0 +1,26 @@
+{
+    "Disabled": [
+        true,
+        "bool",
+        null,
+        "Setting to true disables the module"
+    ],
+    "EnableForNewUsers": [
+        false,
+        "bool",
+        null,
+        "If set to true, adding a new user enables ActiveSync for the account"
+    ],
+    "Server": [
+        "",
+        "string",
+        null,
+        "ActiveServer installation URL"
+    ],
+    "LinkToManual": [
+        "",
+        "string",
+        null,
+        "URL of documentation for configuring ActiveSync by users"
+    ]
+}

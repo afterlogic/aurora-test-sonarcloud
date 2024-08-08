@@ -1,0 +1,32 @@
+{
+    "Disabled": [
+        false,
+        "bool",
+        null,
+        "Setting to true disables the module"
+    ],
+    "LoginLogo": [
+        "",
+        "string",
+        null,
+        "URL of logo image used on login page"
+    ],
+    "TabsbarLogo": [
+        "",
+        "string",
+        null,
+        "URL of logo image used in top left corner of main interface"
+    ],
+    "TopIframeUrl": [
+        "",
+        "string",
+        null,
+        "URL of iframe displaying custom content (e.g. advertisement) on top of main interface"
+    ],
+    "TopIframeHeightPx": [
+        0,
+        "int",
+        null,
+        "Height of iframe with custom content, in pixels"
+    ]
+}

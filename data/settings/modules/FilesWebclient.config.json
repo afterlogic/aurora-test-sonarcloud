@@ -1,0 +1,73 @@
+{
+    "Disabled": [
+        false,
+        "bool",
+        null,
+        "Setting to true disables the module"
+    ],
+    "EditFileNameWithoutExtension": [
+        false,
+        "bool",
+        null,
+        "If true, only filename can be changed when renaming file while extension is kept intact"
+    ],
+    "ShowCommonSettings": [
+        true,
+        "bool",
+        null,
+        "If true, allow for changing basic settings of files functionality, such as enabling table view and preview pane"
+    ],
+    "ServerUrlRewriteBase": [
+        false,
+        "bool",
+        null,
+        "Used for providing short URLs e.g. for file downloads, requires supplying rewrite rules in webserver config"
+    ],
+    "ServerUseUrlRewrite": [
+        false,
+        "bool",
+        null,
+        "Rewrite base for short URLs"
+    ],
+    "ShowFilesApps": [
+        false,
+        "bool",
+        null,
+        "Enables displaying information on desktop and mobile file storage apps in Files tab of Settings screen"
+    ],
+    "BottomLeftCornerLinks": [
+        [],
+        "array",
+        null,
+        "Defines custom links shown at the bottom of left pane in Files"
+    ],
+    "AvailableFor": [
+        [
+            "MailWebclient"
+        ],
+        "array",
+        null,
+        "Automatically provide this feature if one of the listed modules is requested by the entry point"
+    ],
+    "PublicLinksEnabled": [
+        false,
+        "bool",
+        null,
+        "If true, allows for creating basic Public links in addition to secure ones"
+    ],
+    "FilesSortBy": [
+        {
+            "Allow": false,
+            "DisplayOptions": [
+                "Filename",
+                "Size",
+                "Modified"
+            ],
+            "DefaultSortBy": "Filename",
+            "DefaultSortOrder": "Asc"
+        },
+        "array",
+        null,
+        "Defines a set of rules for sorting files and folders. Filename|Size|Modified. DefaultSortOrder - Asc|Desc"
+    ]
+}

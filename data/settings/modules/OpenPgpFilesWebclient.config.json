@@ -1,0 +1,28 @@
+{
+    "Disabled": [
+        false,
+        "bool",
+        null,
+        "Setting to true disables the module"
+    ],
+    "EnableSelfDestructingMessages": [
+        false,
+        "bool",
+        null,
+        "Enables feature of self-destructing messages"
+    ],
+    "EnablePublicLinkLifetime": [
+        false,
+        "bool",
+        null,
+        "Enables feature of public link expiration"
+    ],
+    "AvailableFor": [
+        [
+            "FilesWebclient"
+        ],
+        "array",
+        null,
+        "Automatically provide this feature if one of the listed modules is requested by the entry point"
+    ]
+}

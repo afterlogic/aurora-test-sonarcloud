@@ -1,0 +1,20 @@
+{
+    "Disabled": [
+        false,
+        "bool",
+        null,
+        "Setting to true disables the module"
+    ],
+    "UserSpaceLimitMb": [
+        100,
+        "int",
+        null,
+        "Defines a default filesystem quota for user account, in Mbytes"
+    ],
+    "ShowSharedFilesInPersonalStorage": [
+        true,
+        "bool",
+        null,
+        "Setting to true show shared with me files in personal storage"
+    ]
+}

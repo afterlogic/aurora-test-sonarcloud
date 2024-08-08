@@ -1,0 +1,24 @@
+<div class="row" data-bind="
+	 visible: isEditable() || dataHtml() !== '',
+	 css: {'focused': dataFocus(), 'filled': dataHtml().length > 0}"
+>
+	<div class="value scrollable_field" style="max-height: 150px;" data-bind="customScrollbar: {x: false}">
+		<div class="scroll-inner">
+			<label class="label placeholder"
+				   data-bind="text: placeholderText,
+				   click: function () { dataFocus(true); },
+				   visible: isEditable()"
+			></label>
+			<!-- ko if: !isEditable() -->
+			<span class="input" data-bind="html: dataHtml, visible: !isEditable()"></span>
+			<!-- /ko -->
+			<!-- ko if: isEditable() -->
+			<div contenteditable="true" class="input autosize" data-bind="
+				 
+				 initDom: dataDom, valueUpdate: 'afterkeydown',
+				 hasfocus: dataFocus, visible: isEditable()"
+			></div>
+			<!-- /ko -->
+		</div>
+	</div>
+</div>

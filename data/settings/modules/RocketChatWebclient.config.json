@@ -1,0 +1,50 @@
+{
+    "Disabled": [
+        true,
+        "bool",
+        null,
+        "Setting to true disables the module"
+    ],
+    "ChatUrl": [
+        "",
+        "string",
+        null,
+        "RocketChat installation URL"
+    ],
+    "AdminUsername": [
+        "",
+        "string",
+        null,
+        "Username of RocketChat admin account"
+    ],
+    "AdminPassword": [
+        "",
+        "string",
+        null,
+        "Password of RocketChat admin account"
+    ],
+    "EnableLogging": [
+        false,
+        "bool",
+        null,
+        "Enables logging of API calls and responses to a separate logfile for troubleshooting purposes"
+    ],
+    "AllowAddMeetingLinkToEvent": [
+        false,
+        "bool",
+        null,
+        "Allows for adding Jitsi Meet link when editing an event in calendar"
+    ],
+    "MeetingLinkUrl": [
+        "",
+        "string",
+        null,
+        "Jitsi Meet link base URL"
+    ],
+    "ChatUsernameFormat": [
+        "UsernameAndDomain",
+        "spec",
+        "Aurora\\Modules\\RocketChatWebclient\\Enums\\UsernameFormat",
+        "Defines how chat username is generated from email address: 0 - username, 1 - username.domain (without TLD), 2 - username.domain.tld"
+    ]
+}

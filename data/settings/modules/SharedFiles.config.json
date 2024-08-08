@@ -1,0 +1,14 @@
+{
+    "Disabled": [
+        false,
+        "bool",
+        null,
+        "Setting to true disables the module"
+    ],
+    "SpaceLimitMb": [
+        100,
+        "int",
+        null,
+        "Not used"
+    ]
+}

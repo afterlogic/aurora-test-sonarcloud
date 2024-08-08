@@ -1,0 +1,56 @@
+{
+    "Disabled": [
+        true,
+        "bool",
+        null,
+        "Setting to true disables the module"
+    ],
+    "AccessKey": [
+        "",
+        "string",
+        null,
+        "S3 storage access key"
+    ],
+    "SecretKey": [
+        "",
+        "string",
+        null,
+        "S3 storage secret key"
+    ],
+    "Region": [
+        "",
+        "string",
+        null,
+        "S3 storage region. For AWS S3, specify region value. For other S3-compatible services, for instance DigitalOcean Spaces, set to us-east-1 ."
+    ],
+    "Host": [
+        "",
+        "string",
+        null,
+        "S3 storage hostname. For AWS S3, leave empty. For other S3-compatible services set to your endpoint value (e.g.: nyc1.digitaloceanspaces.com for Digital Ocean Spaces)."
+    ],
+    "BucketPrefix": [
+        "",
+        "string",
+        null,
+        "Bucket prefix you wish to be used"
+    ],
+    "PresignedLinkLifetimeMinutes": [
+        60,
+        "int",
+        null,
+        "Lifetime of links with authentication token built into those, for use by external services such as OnlyOffice"
+    ],
+    "RedirectToOriginalFileURLs": [
+        true,
+        "bool",
+        null,
+        "If true, files on S3 storage are obtained via redirect to their actual URLs"
+    ],
+    "UsePathStyleEndpoint": [
+        false,
+        "bool",
+        null,
+        "If true, send requests to an S3 path style endpoint"
+    ]
+}

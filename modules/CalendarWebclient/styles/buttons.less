@@ -1,0 +1,74 @@
+.popup.calendar_popup {
+	.buttons {
+		border-top: 1px solid #e2e2e2;
+		margin: 16px 0px 0px;
+		padding-top: 20px;
+
+		&.without_border_top {
+			border-top: 0;
+		}
+		
+		.button {
+			float: left;
+			margin-right: 6px;
+			flex-shrink: 0;
+			
+			html.rtl & {
+				float: right;
+				margin-left: 6px;
+				margin-right: 0px;
+			}
+		}
+		
+		.button_decision {
+			margin-top: 10px;
+		}
+
+		.colors {
+			display: inline-block;
+			margin-top: 4px;
+			
+			.item {
+				display: inline-block;
+			}
+		}
+	}
+}
+
+.popup.calendar_create .buttons {
+	display: flex;
+	align-items: start;
+	justify-content: space-between;
+}
+
+.popup.calendar_select,
+.popup.calendar_event {
+	.buttons {
+		text-align: left;
+
+		html.rtl & {
+			text-align: right;
+		}
+
+		.button {
+			float: none;
+		}
+	}
+}
+
+.buttons .button.selected_button {
+	background: #ffffff;
+	border: 1px solid #6fa8de;
+	color: #4f88be;
+	cursor: default;
+	text-shadow: none;
+
+	&.disabled {
+		color: mix(#ffffff, #000, 50%);
+
+		&:hover {
+			background: #ffffff;
+		}
+	}
+}
+

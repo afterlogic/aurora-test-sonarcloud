@@ -1,0 +1,46 @@
+{
+    "Disabled": [
+        true,
+        "bool",
+        null,
+        "Setting to true disables the module"
+    ],
+    "AvailableFor": [
+        [
+            "FilesWebclient"
+        ],
+        "array",
+        null,
+        "Automatically provide this feature if one of the listed modules is requested by the entry point"
+    ],
+    "EnabledByDefault": [
+        false,
+        "bool",
+        null,
+        "If true, the feature is enabled for new users"
+    ],
+    "EnableInPersonalStorageByDefault": [
+        false,
+        "bool",
+        null,
+        "If true, the feature is enabled for new users in personal storage by default"
+    ],
+    "ChunkSizeMb": [
+        5,
+        "int",
+        null,
+        "Sets a chunk size used for encrypting files, in Mbytes"
+    ],
+    "AllowMultiChunkUpload": [
+        true,
+        "bool",
+        null,
+        "Defines whether the files can be uploaded in chunks or in full"
+    ],
+    "AllowChangeSettings": [
+        true,
+        "bool",
+        null,
+        ""
+    ]
+}

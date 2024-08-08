@@ -1,0 +1,38 @@
+{
+    "Disabled": [
+        false,
+        "bool",
+        null,
+        "Setting to true disables the module"
+    ],
+    "EnableUploadSizeLimit": [
+        true,
+        "bool",
+        null,
+        "If true, upload file size limit is set"
+    ],
+    "UploadSizeLimitMb": [
+        100,
+        "int",
+        null,
+        "Upload file size limit value, in Mbytes"
+    ],
+    "UserSpaceLimitMb": [
+        100,
+        "int",
+        null,
+        "Default filestorage disk space quota for new user accounts created"
+    ],
+    "TenantSpaceLimitMb": [
+        1000,
+        "int",
+        null,
+        "With multitenancy enabled, default tenant space quota; with multitenancy disabled, total disk space quota for the installation"
+    ],
+    "CustomTabTitle": [
+        "",
+        "string",
+        null,
+        "The value will be used as the tab title in the web UI"
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "Disabled": [
+        false,
+        "bool",
+        null,
+        "Setting to true disables the module"
+    ],
+    "AddDescriptionToTitle": [
+        false,
+        "bool",
+        null,
+        "If set to true, both title and description will be displayed for event in calendar grid"
+    ],
+    "AllowTasks": [
+        true,
+        "bool",
+        null,
+        "Setting to true enables tasks-related features such as converting event to task and back"
+    ],
+    "AllowShare": [
+        true,
+        "bool",
+        null,
+        "Setting to true enables calendar sharing capabilities (Aurora Corporate only)"
+    ],
+    "DefaultTab": [
+        3,
+        "int",
+        null,
+        "Defines default calendar tab. All the settings starting from this one are applied to new accounts, and can be adjust by users in their settings."
+    ],
+    "HighlightWorkingDays": [
+        true,
+        "bool",
+        null,
+        "If true, 'Highlight working days' option is enabled"
+    ],
+    "HighlightWorkingHours": [
+        true,
+        "bool",
+        null,
+        "If true, 'Highlight working hours' option is enabled"
+    ],
+    "WeekStartsOn": [
+        0,
+        "int",
+        null,
+        "Defines first day of the week: 0 - Sunday, 1 - Monday, 6 - Saturday"
+    ],
+    "WorkdayEnds": [
+        18,
+        "int",
+        null,
+        "Defines workday end time"
+    ],
+    "WorkdayStarts": [
+        9,
+        "int",
+        null,
+        "Defines workday start time"
+    ],
+    "AllowPrivateEvents": [
+        false,
+        "bool",
+        null,
+        "Setting to true enables private events features"
+    ],
+    "AllowDefaultReminders": [
+        false,
+        "bool",
+        null,
+        "Setting to true enables default reminders features"
+    ],
+    "AllowSubscribedCalendars": [
+        false,
+        "bool",
+        null,
+        "Setting to true enables external calendars features"
+    ],
+    "CalendarColors": [
+        [
+            "#f09650",
+            "#f68987",
+            "#6fd0ce",
+            "#8fbce2",
+            "#b9a4f5",
+            "#f68dcf",
+            "#d88adc",
+            "#4afdb4",
+            "#9da1ff",
+            "#5cc9c9",
+            "#77ca71",
+            "#aec9c9",
+            "#000"
+        ],
+        "array",
+        null,
+        ""
+    ],
+    "ShowWeekNumbers": [
+        false,
+        "bool",
+        null,
+        "Setting to true will make the system display week numbers in calendar-related dates"
+    ]
+}

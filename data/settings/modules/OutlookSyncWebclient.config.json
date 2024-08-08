@@ -1,0 +1,20 @@
+{
+    "Disabled": [
+        false,
+        "bool",
+        null,
+        "Setting to true disables the module"
+    ],
+    "PluginDownloadLink": [
+        "https:\/\/afterlogic.com\/download\/OutlookSyncSetup.exe",
+        "string",
+        null,
+        "URL of Outlook Sync plugin download link"
+    ],
+    "PluginReadMoreLink": [
+        "https:\/\/afterlogic.com\/docs\/aurora-corporate-8\/configuring-webmail\/outlook-sync",
+        "string",
+        null,
+        "URL of documentation page on installing and using Outlook Sync plugin"
+    ]
+}

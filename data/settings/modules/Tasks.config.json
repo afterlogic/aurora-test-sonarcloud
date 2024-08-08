@@ -1,0 +1,14 @@
+{
+    "Disabled": [
+        false,
+        "bool",
+        null,
+        "Setting to true disables the module"
+    ],
+    "ItemsPerPage": [
+        20,
+        "int",
+        null,
+        "Define number of tasks displayed per page"
+    ]
+}

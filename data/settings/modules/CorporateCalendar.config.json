@@ -1,0 +1,14 @@
+{
+    "Disabled": [
+        false,
+        "bool",
+        null,
+        "Setting to true disables the module"
+    ],
+    "AllowShare": [
+        true,
+        "bool",
+        null,
+        "If true, users are allowed to share their calendars with others"
+    ]
+}
